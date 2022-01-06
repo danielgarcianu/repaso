@@ -1,0 +1,22 @@
+table, tr, th, td{
+    border: 1px solid orange;
+}
+table{
+    width: 400px;
+}
+.enlace{
+    display: block;
+    background-color: rgb(135, 135, 179);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+/*enlaces funcionan inline pero cambiamos el atributoa bloque */
+/*display:flex ayuda a acomodar elementos que tenemos en nuestro texto* 
+si a un elemento en linea deseamows cambiarlo no nos lo va a permitir sin embargo si usamos la propiedad display y le damos el atributo block si lo podemos cambiar 
+con inline-block tambien nos permite cambiarlo*/
+#bloque{
+    text-align: center;
+   /*  display: inline; */
+    background-color: yellowgreen;
+}
